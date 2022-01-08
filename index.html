@@ -1,0 +1,33 @@
+<html>
+  <div>
+    <p id="demo"></p>
+  </div>
+
+  <script>
+    let person = prompt("Cual es tu nombre?", "");
+        
+    console.log(person.toLowerCase());
+    if (person.toLowerCase() == 'flor') {
+      document.getElementById("demo").innerHTML =
+        "Hola hermosa, como estas? te adoro";
+    }else if (person.toLowerCase() == 'florencia') {
+      document.getElementById("demo").innerHTML =
+        "Se que te llamas florencia pero siempre fuiste flor para mi, pone flor";
+    }else if (person.toLowerCase() == 'martin') {
+      document.getElementById("demo").innerHTML =
+        "no me escribo nada para mi, yo no me quiero";
+    }else if (person.toLowerCase() == 'uriel') {
+      document.getElementById("demo").innerHTML =
+        "bañate hijo de puta";
+    }else if (person.toLowerCase() == 'martin') {
+      document.getElementById("demo").innerHTML =
+        "no me escribo nada para mi, yo no me quiero";
+    }else if (person.toLowerCase() == 'julian' || person.toLowerCase() == 'de dios' || person.toLowerCase() == 'de dios') {
+      document.getElementById("demo").innerHTML =
+        "JAJAJ en serio crees que le pondria algo a el tambien?";
+    } else{
+        document.getElementById("demo").innerHTML =
+          "sali de aca desconocido";
+    }
+  </script>
+</html>
